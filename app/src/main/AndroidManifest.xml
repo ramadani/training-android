@@ -10,14 +10,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".BasicFirstAppActivity"
-            android:label="@string/title_basic_first_app">
+            android:label="@string/title_basic_first_app"/>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_basic_first_app" />
+        <activity android:name=".BasicFragmentActivity"
+            android:label="@string/title_basic_fragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity" android:label="@string/title_basic_first_app"/>
     </application>
 
 </manifest>

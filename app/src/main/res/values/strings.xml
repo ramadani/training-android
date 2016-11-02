@@ -2,6 +2,7 @@
     <string name="app_name">Training Android</string>
 
     <string name="title_basic_first_app">Basic First App</string>
+    <string name="title_basic_fragment">Basic Fragment</string>
 
     <string name="et_1">Enter a message</string>
     <string name="btn_send">Send</string>
